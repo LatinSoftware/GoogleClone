@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-size: 1.6rem;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+}
+
+nav{
+    width: 25%;
+    font-size: 1.3rem;
+
+}
+
+.main-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(0,0,0,0.87);
+}
+
+img.user-img{
+    display: block;
+    width: 32px;
+    height: 32px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+main.container{
+    border: 1px solid black;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-picture img{
+    width: 375px;
+    height: 150px;
+}
+.main-search{
+    width: 80%;
+    display: flex;
+}
+.main-search form{
+    width: 100%;
+}
+.main-form{
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    width: auto;
+    max-width: 584px;
+    height: 44px;
+    z-index: 3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: none; 
+    margin: 20px auto;
+}
+
+.main-section__search-icon{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    padding-left: 13px;
+    color: #9aa0a6;
+}
+
+.search-container{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+.main-form input{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1.6rem;
+}
+
+.main-section__microphone-icon{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding-right: 15px;
+    color: #4285f4;
+}
+
+.main-buttons{
+    display: flex;
+    justify-content: center;
+}
+.main-section__search-buttons button{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.main-section__letter{
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
